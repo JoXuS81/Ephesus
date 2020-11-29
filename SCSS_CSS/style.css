@@ -1,0 +1,1843 @@
+/*
+
+
+*****************
+TABLE OF CONTENTS 
+*****************
+
+
+
+*/
+/*  ***** FONTS *****  */
+@font-face {
+  font-family: cairo;
+  src: url("../Fonts/Cairo/Cairo_Regular.ttf");
+}
+
+/*  ***** MIXINS *****  */
+/*  ***** VARIABLES *****  */
+/* BODY */
+body {
+  /*
+
+
+*****************
+TABLE OF CONTENTS 
+*****************
+
+1. About 
+ 1.1 Content 
+  1.1.1 Heading 
+  1.1.2 Careers 
+  1.1.3 Events 
+  1.1.4 Residents 
+  1.1.5 Text on the Right
+  1.1.6 Services 
+ 1.2 Headings 
+2. Media Queries
+
+*/
+  /* ABOUT */
+  /*
+
+
+*****************
+TABLE OF CONTENTS 
+*****************
+
+1. Government 
+ 1.1 City Council 
+ 1.2 Major 
+ 1.3 Offices 
+ 1.4 Headings 
+2. Media Queries 
+
+
+*/
+  /* GOVERNMENT */
+  /*
+
+
+*****************
+TABLE OF CONTENTS 
+*****************
+
+1. Home 
+ 1.1 Content 
+  1.1.1 Future 
+  1.1.2 Hamburger Menu 
+  1.1.3 Invest, Text
+  1.1.4 Language Bar 
+  1.1.5 Navbar 
+  1.1.6 Search Area 
+ 1.2 Headings 
+2. Media Queries 
+
+*/
+  /* HOME */
+  /*
+
+
+*****************
+TABLE OF CONTENTS 
+*****************
+
+1. Loader 
+ 1.1 Keyframes 
+ 1.2 Content 
+2. Media Queries
+
+
+*/
+  /* LOADER */
+  background: #ffffff;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  overflow-x: hidden;
+  padding: 0;
+  -webkit-background-size: cover;
+}
+
+body .mission {
+  background: #03070a;
+  font-family: cairo;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+body .mission .break {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+body .mission .crucial {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 2.5px;
+  text-align: left;
+  width: 325px;
+}
+
+body .mission .giza {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+body .mission h4 {
+  font-size: 24px;
+}
+
+body .mission .mis {
+  color: #FFFCCE;
+}
+
+body .mission .phd {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 75px;
+  text-align: left;
+  width: 325px;
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) {
+  body .mission .break {
+    font-size: 20px;
+    padding-top: 125px;
+  }
+  body .mission .crucial {
+    font-size: 20px;
+    padding-top: 3.1px;
+    width: 406px;
+  }
+  body .mission .giza {
+    margin-bottom: 62px;
+    margin-top: 62px;
+  }
+  body .mission .giza_img {
+    height: 681px;
+    width: 750px;
+  }
+  body .mission h4 {
+    font-size: 30px;
+  }
+  body .mission .phd {
+    font-size: 20px;
+    padding-top: 93px;
+    width: 406px;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2500px) {
+  body .mission .break {
+    font-size: 25px;
+    padding-top: 156px;
+  }
+  body .mission .crucial {
+    font-size: 25px;
+    padding-top: 3.8px;
+    width: 508px;
+  }
+  body .mission .giza {
+    margin-bottom: 77px;
+    margin-top: 77px;
+  }
+  body .mission .giza_img {
+    height: 851px;
+    width: 938px;
+  }
+  body .mission h4 {
+    font-size: 37px;
+  }
+  body .mission .phd {
+    font-size: 25px;
+    padding-top: 116px;
+    width: 508px;
+  }
+}
+
+@media (min-width: 2501px) and (max-width: 3125px) {
+  body .mission .break {
+    font-size: 31px;
+    padding-top: 195px;
+  }
+  body .mission .crucial {
+    font-size: 31px;
+    padding-top: 4.7px;
+    width: 635px;
+  }
+  body .mission .giza {
+    margin-bottom: 96px;
+    margin-top: 96px;
+  }
+  body .mission .giza_img {
+    height: 1064px;
+    width: 1173px;
+  }
+  body .mission h4 {
+    font-size: 46px;
+  }
+  body .mission .phd {
+    font-size: 31px;
+    padding-top: 145px;
+    width: 635px;
+  }
+}
+
+@media (min-width: 3126px) {
+  body .mission .break {
+    font-size: 38px;
+    padding-top: 243px;
+  }
+  body .mission .crucial {
+    font-size: 38px;
+    padding-top: 5.8px;
+    width: 794px;
+  }
+  body .mission .giza {
+    margin-bottom: 120px;
+    margin-top: 120px;
+  }
+  body .mission .giza_img {
+    height: 1330px;
+    width: 1466px;
+  }
+  body .mission h4 {
+    font-size: 57px;
+  }
+  body .mission .phd {
+    font-size: 38px;
+    padding-top: 181px;
+    width: 794px;
+  }
+}
+
+body .objectives {
+  background: #03070a;
+  font-family: cairo;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+body .objectives .chart {
+  margin-bottom: 50px;
+  padding-top: 75px;
+}
+
+body .objectives .combine {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+body .objectives h4 {
+  font-size: 24px;
+}
+
+body .objectives .obj {
+  color: #FFFCCE;
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) {
+  body .objectives .chart {
+    height: 720px;
+    margin-bottom: 62px;
+    padding-top: 93px;
+    width: 938px;
+  }
+  body .objectives .combine {
+    font-size: 20px;
+    padding-top: 125px;
+  }
+  body .objectives h4 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2500px) {
+  body .objectives .chart {
+    height: 900px;
+    margin-bottom: 77px;
+    padding-top: 116px;
+    width: 1173px;
+  }
+  body .objectives .combine {
+    font-size: 25px;
+    padding-top: 156px;
+  }
+  body .objectives h4 {
+    font-size: 37px;
+  }
+}
+
+@media (min-width: 2501px) and (max-width: 3125px) {
+  body .objectives .chart {
+    height: 1125px;
+    margin-bottom: 96px;
+    padding-top: 145px;
+    width: 1466px;
+  }
+  body .objectives .combine {
+    font-size: 31px;
+    padding-top: 195px;
+  }
+  body .objectives h4 {
+    font-size: 46px;
+  }
+}
+
+@media (min-width: 3126px) {
+  body .objectives .chart {
+    height: 1406px;
+    margin-bottom: 120px;
+    padding-top: 181px;
+    width: 1833px;
+  }
+  body .objectives .combine {
+    font-size: 38px;
+    padding-top: 243px;
+  }
+  body .objectives h4 {
+    font-size: 57px;
+  }
+}
+
+body .home {
+  background: url("../Images/Home/Library.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  -webkit-box-shadow: inset 0 0 0 4000px rgba(0, 0, 0, 0.5);
+          box-shadow: inset 0 0 0 4000px rgba(0, 0, 0, 0.5);
+  font-family: cairo;
+  height: 100vh;
+  margin: 0;
+  margin-top: 50px;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  padding: 0;
+  position: relative;
+  -webkit-background-size: cover;
+  width: 90%;
+}
+
+body .home .arrow {
+  bottom: 25px;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+}
+
+body .home .home_hamburger {
+  background: rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  padding: 10px;
+  position: fixed;
+  right: 100px;
+  top: 100px;
+  visibility: hidden;
+  width: 55px;
+  z-index: 26;
+}
+
+body .home .home_hamburger .home_line {
+  background: #E1A450;
+  height: 3px;
+  -webkit-transition: all 0.8s;
+  transition: all 0.8s;
+  width: 100%;
+}
+
+body .home .middle {
+  height: 100vh;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+body .home .middle .mid {
+  width: 100%;
+}
+
+body .home .middle .mid .social .soc {
+  margin: 0 0 0 60px;
+  position: relative;
+  top: 110px;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+}
+
+body .home .middle .mid .social .soc .img {
+  margin-right: 25px;
+}
+
+body .home .middle .mid .social .soc .img:hover {
+  text-decoration: none;
+}
+
+body .home .middle .mid .text .phd {
+  color: #FFFCCE;
+  font-weight: bold;
+}
+
+body .home .middle .mid .text .unity {
+  color: #FFFCCE;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+body .home .middle .mid .unity_area .engine {
+  display: block;
+  font-weight: bold;
+  margin: 0 60px 0 0;
+  padding: 0;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+body .home .middle .mid .unity_area .engine .text {
+  color: #ffffff;
+}
+
+body .home .nav {
+  list-style-type: none;
+  margin: 60px 60px 0 0;
+  padding: 0;
+  position: relative;
+  z-index: 2;
+}
+
+body .home .nav .option {
+  color: #513724;
+  margin-left: 45px;
+}
+
+body .home .nav .option .link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+body .home .nav .option_home {
+  display: none;
+}
+
+body .home .title {
+  color: #FFFCCE;
+  font-weight: bold;
+  margin: 60px 0 0 60px;
+}
+
+body .home .title .giza {
+  color: #ffffff;
+}
+
+body .home h3 {
+  color: #000000;
+  font-size: 28px;
+}
+
+body .home h4 {
+  font-size: 24px;
+}
+
+@media (max-width: 400px) {
+  body .home .home_hamburger {
+    position: fixed;
+    right: 0;
+    top: 0;
+  }
+  body .home .title {
+    display: none !important;
+  }
+}
+
+@media (max-width: 750px) {
+  body .home .middle .mid .social .soc {
+    display: none;
+  }
+  body .home .unity_area {
+    display: none;
+  }
+  body .home .unity_area .engine {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1199px) {
+  body .home .engine {
+    bottom: 75px;
+    left: 50px;
+    position: relative;
+  }
+  body .home .home_hamburger {
+    visibility: visible;
+  }
+  body .home .middle .mid .social .soc {
+    position: relative;
+    top: 150px;
+  }
+  body .home .navigation {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #000000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100vh;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    left: -100vw;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 3;
+  }
+  body .home .navigation .nav {
+    display: block;
+    margin: 0;
+  }
+  body .home .navigation .nav .link {
+    color: #FFFCCE;
+  }
+  body .home .navigation .nav .link_contact {
+    display: block;
+  }
+  body .home .navigation .nav .link_milestones {
+    display: block;
+  }
+  body .home .navigation .nav .option {
+    margin: 25px;
+    text-align: center;
+  }
+  body .home .navigation .nav .option_home {
+    display: block;
+  }
+}
+
+@media (min-width: 1201px) and (max-width: 1250px) {
+  body .home .engine {
+    position: relative;
+    right: 10px;
+  }
+  body .home .middle .mid .social .soc {
+    position: relative;
+    top: 150px;
+  }
+}
+
+@media (max-width: 1325px) {
+  body .home .link_milestones {
+    display: none;
+  }
+}
+
+@media (max-width: 1550px) {
+  body .home .link_contact {
+    display: none;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) {
+  body .home {
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    margin-top: 62px;
+  }
+  body .home .arrow {
+    bottom: 31px;
+  }
+  body .home .arrow .arrow_img {
+    height: 36px;
+    width: 31px;
+  }
+  body .home .link {
+    font-size: 20px;
+  }
+  body .home .middle .mid .phd {
+    font-size: 20px;
+  }
+  body .home .middle .mid .social .soc {
+    margin: 0 0 0 75px;
+    top: 137px;
+  }
+  body .home .middle .mid .social .soc .img {
+    margin-right: 31px;
+  }
+  body .home .middle .mid .social .soc .img .be {
+    height: 26px;
+    width: 40px;
+  }
+  body .home .middle .mid .social .soc .img .fb {
+    height: 26px;
+    width: 17px;
+  }
+  body .home .middle .mid .social .soc .img .li {
+    height: 26px;
+    width: 26px;
+  }
+  body .home .middle .mid .unity_area .engine {
+    margin: 0 75px 0 0;
+  }
+  body .home .middle .mid .unity_area .engine .text {
+    font-size: 20px;
+  }
+  body .home .nav {
+    margin: 75px 75px 0 0;
+  }
+  body .home .nav .option {
+    margin-left: 32px;
+  }
+  body .home .title {
+    margin: 75px 0 0 75px;
+  }
+  body .home h3 {
+    font-size: 35px;
+  }
+  body .home h4 {
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2500px) {
+  body .home {
+    border-top-left-radius: 22px;
+    border-top-right-radius: 22px;
+    margin-top: 77px;
+  }
+  body .home .arrow {
+    bottom: 38px;
+  }
+  body .home .arrow .arrow_img {
+    height: 45px;
+    width: 38px;
+  }
+  body .home .link {
+    font-size: 25px;
+  }
+  body .home .middle .mid .phd {
+    font-size: 25px;
+  }
+  body .home .middle .mid .social .soc {
+    margin: 0 0 0 93px;
+    top: 171px;
+  }
+  body .home .middle .mid .social .soc .img {
+    margin-right: 38px;
+  }
+  body .home .middle .mid .social .soc .img .be {
+    height: 32px;
+    width: 50px;
+  }
+  body .home .middle .mid .social .soc .img .fb {
+    height: 32px;
+    width: 21px;
+  }
+  body .home .middle .mid .social .soc .img .li {
+    height: 32px;
+    width: 32px;
+  }
+  body .home .middle .mid .unity_area .engine {
+    margin: 0 93px 0 0;
+  }
+  body .home .middle .mid .unity_area .engine .text {
+    font-size: 25px;
+  }
+  body .home .nav {
+    margin: 93px 93px 0 0;
+  }
+  body .home .nav .option {
+    margin-left: 40px;
+  }
+  body .home .title {
+    margin: 93px 0 0 93px;
+  }
+  body .home h3 {
+    font-size: 43px;
+  }
+  body .home h4 {
+    font-size: 37px;
+  }
+}
+
+@media (min-width: 2501px) and (max-width: 3125px) {
+  body .home {
+    border-top-left-radius: 27px;
+    border-top-right-radius: 27px;
+    margin-top: 96px;
+  }
+  body .home .arrow {
+    bottom: 47px;
+  }
+  body .home .arrow .arrow_img {
+    height: 56px;
+    width: 47px;
+  }
+  body .home .link {
+    font-size: 31px;
+  }
+  body .home .middle .mid .phd {
+    font-size: 31px;
+  }
+  body .home .middle .mid .social .soc {
+    margin: 0 0 0 116px;
+    top: 214px;
+  }
+  body .home .middle .mid .social .soc .img {
+    margin-right: 47px;
+  }
+  body .home .middle .mid .social .soc .img .be {
+    height: 40px;
+    width: 62px;
+  }
+  body .home .middle .mid .social .soc .img .fb {
+    height: 40px;
+    width: 26px;
+  }
+  body .home .middle .mid .social .soc .img .li {
+    height: 40px;
+    width: 40px;
+  }
+  body .home .middle .mid .unity_area .engine {
+    margin: 0 116px 0 0;
+  }
+  body .home .middle .mid .unity_area .engine .text {
+    font-size: 31px;
+  }
+  body .home .nav {
+    margin: 116px 116px 0 0;
+  }
+  body .home .nav .option {
+    margin-left: 50px;
+  }
+  body .home .title {
+    margin: 116px 0 0 116px;
+  }
+  body .home h3 {
+    font-size: 53px;
+  }
+  body .home h4 {
+    font-size: 46px;
+  }
+}
+
+@media (min-width: 3126px) {
+  body .home {
+    border-top-left-radius: 33px;
+    border-top-right-radius: 33px;
+    margin-top: 120px;
+  }
+  body .home .arrow {
+    bottom: 56px;
+  }
+  body .home .arrow .arrow_img {
+    height: 70px;
+    width: 58px;
+  }
+  body .home .link {
+    font-size: 38px;
+  }
+  body .home .middle .mid .phd {
+    font-size: 38px;
+  }
+  body .home .middle .mid .social .soc {
+    margin: 0 0 0 145px;
+    top: 268px;
+  }
+  body .home .middle .mid .social .soc .img {
+    margin-right: 58px;
+  }
+  body .home .middle .mid .social .soc .img .be {
+    height: 50px;
+    width: 77px;
+  }
+  body .home .middle .mid .social .soc .img .fb {
+    height: 50px;
+    width: 32px;
+  }
+  body .home .middle .mid .social .soc .img .li {
+    height: 50px;
+    width: 50px;
+  }
+  body .home .middle .mid .unity_area .engine {
+    margin: 0 145px 0 0;
+  }
+  body .home .middle .mid .unity_area .engine .text {
+    font-size: 38px;
+  }
+  body .home .nav {
+    margin: 145px 145px 0 0;
+  }
+  body .home .nav .option {
+    margin-left: 62px;
+  }
+  body .home .title {
+    margin: 145px 0 0 145px;
+  }
+  body .home h3 {
+    font-size: 66px;
+  }
+  body .home h4 {
+    font-size: 57px;
+  }
+}
+
+body .home_change .home_lineBottom {
+  -webkit-transform: rotateZ(405deg) translate(-8px, -6px);
+          transform: rotateZ(405deg) translate(-8px, -6px);
+}
+
+body .home_change .home_lineMiddle {
+  opacity: 0;
+}
+
+body .home_change .home_lineTop {
+  -webkit-transform: rotateZ(-405deg) translate(-8px, 6px);
+          transform: rotateZ(-405deg) translate(-8px, 6px);
+}
+
+body .home_change .navigation {
+  left: 0;
+}
+
+body .loader {
+  background: #513724;
+  height: 100vh;
+}
+
+.contact {
+  background: #03070a;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  font-family: cairo;
+  margin: 0;
+  margin-bottom: 50px;
+  padding: 0;
+  width: 90%;
+}
+
+.contact .address {
+  color: #FFFCCE;
+  padding-top: 75px;
+}
+
+.contact .con {
+  color: #FFFCCE;
+}
+
+.contact .contact_me {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.contact h4 {
+  font-size: 24px;
+}
+
+.contact .link {
+  margin: 15px;
+}
+
+.contact .link:hover {
+  text-decoration: none;
+}
+
+.contact .mail {
+  color: #FFFCCE;
+  padding-top: 25px;
+}
+
+.contact .phone {
+  color: #FFFCCE;
+  padding-top: 25px;
+}
+
+.contact .social {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.methods {
+  background: #03070a;
+  font-family: cairo;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.methods .collect {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.methods .content {
+  padding-top: 75px;
+}
+
+.methods .content .block .holder .method {
+  background: #000000;
+  border-radius: 10px;
+  height: 250px;
+  width: 250px;
+}
+
+.methods .content .block .holder .method .method_area .text {
+  color: #F4D896;
+  display: block;
+  padding-top: 25px;
+}
+
+.methods .content .bottom {
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.methods h4 {
+  font-size: 24px;
+}
+
+.methods .met {
+  color: #FFFCCE;
+}
+
+.milestones {
+  background: #03070a;
+  font-family: cairo;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.milestones .breakpoints {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.milestones h4 {
+  font-size: 24px;
+}
+
+.milestones .mil {
+  color: #FFFCCE;
+}
+
+.milestones .milestones_img {
+  padding-bottom: 50px;
+  padding-top: 75px;
+}
+
+.visits {
+  background: #03070a;
+  font-family: cairo;
+  margin: 0;
+  padding: 0;
+  width: 90%;
+}
+
+.visits .austria {
+  margin-top: 100px;
+}
+
+.visits .berlin {
+  margin-right: 50px;
+  padding-left: 25px;
+}
+
+.visits .berlin .img_right {
+  border-radius: 10px;
+}
+
+.visits .centre {
+  color: #FFFCCE;
+}
+
+.visits .city {
+  color: #FFFCCE;
+  margin-top: 10px;
+}
+
+.visits .city_right {
+  color: #FFFCCE;
+  margin-top: 10px;
+}
+
+.visits .graz {
+  color: #FFFCCE;
+  margin-top: 25px;
+}
+
+.visits h4 {
+  font-size: 24px;
+}
+
+.visits .institute {
+  color: #FFFCCE;
+  margin-top: 75px;
+}
+
+.visits .mappa {
+  color: #FFFCCE;
+  margin-top: 35px;
+}
+
+.visits .pisa {
+  margin-top: 125px;
+}
+
+.visits .pisa_text {
+  color: #FFFCCE;
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
+
+.visits .place {
+  color: #FFFCCE;
+  margin-top: 15px;
+}
+
+.visits .place_right {
+  color: #FFFCCE;
+  margin-top: 15px;
+}
+
+.visits .places {
+  color: #FFFCCE;
+  font-weight: bold;
+  padding-top: 100px;
+}
+
+.visits .turin {
+  margin-left: 50px;
+  padding-right: 25px;
+}
+
+.visits .turin .img {
+  border-radius: 10px;
+}
+
+.visits .vienna {
+  color: #FFFCCE;
+  margin-top: 25px;
+}
+
+.visits .vis {
+  color: #FFFCCE;
+}
+
+.visits .visits_places {
+  padding-top: 75px;
+}
+
+@media (max-width: 576px) {
+  .methods .content .archaeology_testing {
+    margin-top: 50px;
+  }
+  .methods .content .comparative_internet {
+    margin-top: 0;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+  .methods .content .block {
+    margin-top: 0;
+  }
+  .methods .content .two_block {
+    margin-top: 50px;
+  }
+}
+
+@media (max-width: 768px) {
+  .visits .berlin {
+    margin: 0;
+    margin-top: 50px;
+    padding: 0;
+  }
+  .visits .berlin .city_right {
+    text-align: center;
+  }
+  .visits .berlin .place_right {
+    text-align: center;
+  }
+  .visits .turin {
+    margin: 0;
+    padding: 0;
+  }
+  .visits .turin .city {
+    text-align: center;
+  }
+  .visits .turin .place {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1601px) and (max-width: 2000px) {
+  .contact {
+    border-bottom-left-radius: 18px;
+    border-bottom-right-radius: 18px;
+    margin-bottom: 62px;
+  }
+  .contact .address {
+    font-size: 25px;
+    padding-top: 93px;
+  }
+  .contact .contact_me {
+    font-size: 20px;
+    padding-top: 125px;
+  }
+  .contact h4 {
+    font-size: 30px;
+  }
+  .contact .link {
+    margin: 18px;
+  }
+  .contact .link .be {
+    height: 26px;
+    width: 40px;
+  }
+  .contact .link .fb {
+    height: 26px;
+    width: 17px;
+  }
+  .contact .link .li {
+    height: 26px;
+    width: 26px;
+  }
+  .contact .mail {
+    font-size: 25px;
+    padding-top: 31px;
+  }
+  .contact .phone {
+    font-size: 25px;
+    padding-top: 31px;
+  }
+  .contact .social {
+    margin-top: 62px;
+    padding-bottom: 62px;
+  }
+  .methods .collect {
+    font-size: 20px;
+    padding-top: 125px;
+  }
+  .methods .content {
+    padding-top: 93px;
+  }
+  .methods .content .block .holder .method {
+    border-radius: 12.5px;
+    height: 312px;
+    width: 312px;
+  }
+  .methods .content .block .holder .method .method_area .amphora {
+    height: 53px;
+    width: 37px;
+  }
+  .methods .content .block .holder .method .method_area .coding {
+    height: 53px;
+    width: 33px;
+  }
+  .methods .content .block .holder .method .method_area .colosseum {
+    height: 53px;
+    width: 77px;
+  }
+  .methods .content .block .holder .method .method_area .column {
+    height: 53px;
+    width: 63px;
+  }
+  .methods .content .block .holder .method .method_area .internet {
+    height: 53px;
+    width: 55px;
+  }
+  .methods .content .block .holder .method .method_area .microphone {
+    height: 53px;
+    width: 33px;
+  }
+  .methods .content .block .holder .method .method_area .text {
+    font-size: 20px;
+    padding-top: 31px;
+  }
+  .methods .content .bottom {
+    margin-bottom: 62px;
+    margin-top: 62px;
+  }
+  .methods h4 {
+    font-size: 30px;
+  }
+  .milestones .breakpoints {
+    font-size: 20px;
+    padding-top: 125px;
+  }
+  .milestones h4 {
+    font-size: 30px;
+  }
+  .milestones .milestones_img {
+    padding-bottom: 62px;
+    padding-top: 93px;
+  }
+  .milestones .milestones_img .mil_img {
+    height: 188px;
+    width: 1223px;
+  }
+  .visits .austria {
+    height: 300px;
+    margin-top: 125px;
+    width: 938px;
+  }
+  .visits .berlin {
+    margin-right: 62px;
+    padding-left: 31px;
+  }
+  .visits .berlin .img_right {
+    border-radius: 12.5px;
+    height: 458px;
+    width: 800px;
+  }
+  .visits .city {
+    margin-top: 12.5px;
+  }
+  .visits .city_right {
+    margin-top: 12.5px;
+  }
+  .visits .graz {
+    margin-top: 31px;
+  }
+  .visits h4 {
+    font-size: 30px;
+  }
+  .visits .institute {
+    margin-top: 93px;
+  }
+  .visits .mappa {
+    margin-top: 43px;
+  }
+  .visits .pisa {
+    margin-top: 156px;
+  }
+  .visits .pisa_img {
+    height: 325px;
+    width: 415px;
+  }
+  .visits .pisa_text {
+    margin-bottom: 62px;
+    margin-top: 31px;
+  }
+  .visits .place {
+    margin-top: 18px;
+  }
+  .visits .place_right {
+    margin-top: 18px;
+  }
+  .visits .places {
+    font-size: 20px;
+    padding-top: 125px;
+  }
+  .visits .turin {
+    margin-left: 62px;
+    padding-right: 31px;
+  }
+  .visits .turin .img {
+    border-radius: 12.5px;
+    height: 458px;
+    width: 800px;
+  }
+  .visits .vienna {
+    margin-top: 31px;
+  }
+  .visits .visits_places {
+    padding-top: 93px;
+  }
+}
+
+@media (min-width: 2001px) and (max-width: 2500px) {
+  .contact {
+    border-bottom-left-radius: 22px;
+    border-bottom-right-radius: 22px;
+    margin-bottom: 77px;
+  }
+  .contact .address {
+    font-size: 31px;
+    padding-top: 116px;
+  }
+  .contact .contact_me {
+    font-size: 25px;
+    padding-top: 156px;
+  }
+  .contact h4 {
+    font-size: 37px;
+  }
+  .contact .link {
+    margin: 22px;
+  }
+  .contact .link .be {
+    height: 32px;
+    width: 50px;
+  }
+  .contact .link .fb {
+    height: 32px;
+    width: 21px;
+  }
+  .contact .link .li {
+    height: 32px;
+    width: 32px;
+  }
+  .contact .mail {
+    font-size: 31px;
+    padding-top: 38px;
+  }
+  .contact .phone {
+    font-size: 31px;
+    padding-top: 38px;
+  }
+  .contact .social {
+    margin-top: 77px;
+    padding-bottom: 77px;
+  }
+  .methods .collect {
+    font-size: 25px;
+    padding-top: 156px;
+  }
+  .methods .content {
+    padding-top: 116px;
+  }
+  .methods .content .block .holder .method {
+    border-radius: 15.6px;
+    height: 390px;
+    width: 390px;
+  }
+  .methods .content .block .holder .method .method_area .amphora {
+    height: 66px;
+    width: 46px;
+  }
+  .methods .content .block .holder .method .method_area .coding {
+    height: 66px;
+    width: 41px;
+  }
+  .methods .content .block .holder .method .method_area .colosseum {
+    height: 66px;
+    width: 96px;
+  }
+  .methods .content .block .holder .method .method_area .column {
+    height: 66px;
+    width: 78px;
+  }
+  .methods .content .block .holder .method .method_area .internet {
+    height: 66px;
+    width: 68px;
+  }
+  .methods .content .block .holder .method .method_area .microphone {
+    height: 66px;
+    width: 41px;
+  }
+  .methods .content .block .holder .method .method_area .text {
+    font-size: 25px;
+    padding-top: 38px;
+  }
+  .methods .content .bottom {
+    margin-bottom: 77px;
+    margin-top: 77px;
+  }
+  .methods h4 {
+    font-size: 37px;
+  }
+  .milestones .breakpoints {
+    font-size: 25px;
+    padding-top: 156px;
+  }
+  .milestones h4 {
+    font-size: 37px;
+  }
+  .milestones .milestones_img {
+    padding-bottom: 77px;
+    padding-top: 116px;
+  }
+  .milestones .milestones_img .mil_img {
+    height: 235px;
+    width: 1529px;
+  }
+  .visits .austria {
+    height: 375px;
+    margin-top: 156px;
+    width: 1173px;
+  }
+  .visits .berlin {
+    margin-right: 77px;
+    padding-left: 38px;
+  }
+  .visits .berlin .img_right {
+    border-radius: 15.6px;
+    height: 573px;
+    width: 1000px;
+  }
+  .visits .city {
+    margin-top: 15.6px;
+  }
+  .visits .city_right {
+    margin-top: 15.6px;
+  }
+  .visits .graz {
+    margin-top: 38px;
+  }
+  .visits h4 {
+    font-size: 37px;
+  }
+  .visits .institute {
+    margin-top: 116px;
+  }
+  .visits .mappa {
+    margin-top: 53px;
+  }
+  .visits .pisa {
+    margin-top: 195px;
+  }
+  .visits .pisa_img {
+    height: 406px;
+    width: 519px;
+  }
+  .visits .pisa_text {
+    margin-bottom: 77px;
+    margin-top: 38px;
+  }
+  .visits .place {
+    margin-top: 22px;
+  }
+  .visits .place_right {
+    margin-top: 22px;
+  }
+  .visits .places {
+    font-size: 25px;
+    padding-top: 156px;
+  }
+  .visits .turin {
+    margin-left: 77px;
+    padding-right: 38px;
+  }
+  .visits .turin .img {
+    border-radius: 15.6px;
+    height: 573px;
+    width: 1000px;
+  }
+  .visits .vienna {
+    margin-top: 38px;
+  }
+  .visits .visits_places {
+    padding-top: 116px;
+  }
+}
+
+@media (min-width: 2501px) and (max-width: 3125px) {
+  .contact {
+    border-bottom-left-radius: 27px;
+    border-bottom-right-radius: 27px;
+    margin-bottom: 96px;
+  }
+  .contact .address {
+    font-size: 38px;
+    padding-top: 145px;
+  }
+  .contact .contact_me {
+    font-size: 31px;
+    padding-top: 195px;
+  }
+  .contact h4 {
+    font-size: 46px;
+  }
+  .contact .link {
+    margin: 27px;
+  }
+  .contact .link .be {
+    height: 40px;
+    width: 62px;
+  }
+  .contact .link .fb {
+    height: 40px;
+    width: 26px;
+  }
+  .contact .link .li {
+    height: 40px;
+    width: 40px;
+  }
+  .contact .mail {
+    font-size: 38px;
+    padding-top: 47px;
+  }
+  .contact .phone {
+    font-size: 38px;
+    padding-top: 47px;
+  }
+  .contact .social {
+    margin-top: 96px;
+    padding-bottom: 96px;
+  }
+  .methods .collect {
+    font-size: 31px;
+    padding-top: 195px;
+  }
+  .methods .content {
+    padding-top: 145px;
+  }
+  .methods .content .block .holder .method {
+    border-radius: 19.5px;
+    height: 488px;
+    width: 488px;
+  }
+  .methods .content .block .holder .method .method_area .amphora {
+    height: 82px;
+    width: 57px;
+  }
+  .methods .content .block .holder .method .method_area .coding {
+    height: 82px;
+    width: 51px;
+  }
+  .methods .content .block .holder .method .method_area .colosseum {
+    height: 82px;
+    width: 120px;
+  }
+  .methods .content .block .holder .method .method_area .column {
+    height: 82px;
+    width: 97px;
+  }
+  .methods .content .block .holder .method .method_area .internet {
+    height: 82px;
+    width: 85px;
+  }
+  .methods .content .block .holder .method .method_area .microphone {
+    height: 82px;
+    width: 51px;
+  }
+  .methods .content .block .holder .method .method_area .text {
+    font-size: 31px;
+    padding-top: 47px;
+  }
+  .methods .content .bottom {
+    margin-bottom: 96px;
+    margin-top: 96px;
+  }
+  .methods h4 {
+    font-size: 46px;
+  }
+  .milestones .breakpoints {
+    font-size: 31px;
+    padding-top: 195px;
+  }
+  .milestones h4 {
+    font-size: 46px;
+  }
+  .milestones .milestones_img {
+    padding-bottom: 96px;
+    padding-top: 145px;
+  }
+  .milestones .milestones_img .mil_img {
+    height: 294px;
+    width: 1911px;
+  }
+  .visits .austria {
+    height: 469px;
+    margin-top: 195px;
+    width: 1466px;
+  }
+  .visits .berlin {
+    margin-right: 96px;
+    padding-left: 47px;
+  }
+  .visits .berlin .img_right {
+    border-radius: 19.5px;
+    height: 716px;
+    width: 1250px;
+  }
+  .visits .city {
+    margin-top: 19.5px;
+  }
+  .visits .city_right {
+    margin-top: 19.5px;
+  }
+  .visits .graz {
+    margin-top: 47px;
+  }
+  .visits h4 {
+    font-size: 46px;
+  }
+  .visits .institute {
+    margin-top: 145px;
+  }
+  .visits .mappa {
+    margin-top: 66px;
+  }
+  .visits .pisa {
+    margin-top: 243px;
+  }
+  .visits .pisa_img {
+    height: 508px;
+    width: 649px;
+  }
+  .visits .pisa_text {
+    margin-bottom: 96px;
+    margin-top: 47px;
+  }
+  .visits .place {
+    margin-top: 27px;
+  }
+  .visits .place_right {
+    margin-top: 27px;
+  }
+  .visits .places {
+    font-size: 31px;
+    padding-top: 195px;
+  }
+  .visits .turin {
+    margin-left: 96px;
+    padding-right: 47px;
+  }
+  .visits .turin .img {
+    border-radius: 19.5px;
+    height: 716px;
+    width: 1250px;
+  }
+  .visits .vienna {
+    margin-top: 47px;
+  }
+  .visits .visits_places {
+    padding-top: 145px;
+  }
+}
+
+@media (min-width: 3126px) {
+  .contact {
+    border-bottom-left-radius: 33px;
+    border-bottom-right-radius: 33px;
+    margin-bottom: 120px;
+  }
+  .contact .address {
+    font-size: 47px;
+    padding-top: 181px;
+  }
+  .contact .contact_me {
+    font-size: 38px;
+    padding-top: 243px;
+  }
+  .contact h4 {
+    font-size: 57px;
+  }
+  .contact .link {
+    margin: 33px;
+  }
+  .contact .link .be {
+    height: 50px;
+    width: 77px;
+  }
+  .contact .link .fb {
+    height: 50px;
+    width: 32px;
+  }
+  .contact .link .li {
+    height: 50px;
+    width: 50px;
+  }
+  .contact .mail {
+    font-size: 47px;
+    padding-top: 58px;
+  }
+  .contact .phone {
+    font-size: 47px;
+    padding-top: 58px;
+  }
+  .contact .social {
+    margin-top: 120px;
+    padding-bottom: 120px;
+  }
+  .methods .collect {
+    font-size: 38px;
+    padding-top: 243px;
+  }
+  .methods .content {
+    padding-top: 181px;
+  }
+  .methods .content .block .holder .method {
+    border-radius: 24.3px;
+    height: 610px;
+    width: 610px;
+  }
+  .methods .content .block .holder .method .method_area .amphora {
+    height: 102px;
+    width: 71px;
+  }
+  .methods .content .block .holder .method .method_area .coding {
+    height: 102px;
+    width: 63px;
+  }
+  .methods .content .block .holder .method .method_area .colosseum {
+    height: 102px;
+    width: 150px;
+  }
+  .methods .content .block .holder .method .method_area .column {
+    height: 102px;
+    width: 121px;
+  }
+  .methods .content .block .holder .method .method_area .internet {
+    height: 102px;
+    width: 106px;
+  }
+  .methods .content .block .holder .method .method_area .microphone {
+    height: 102px;
+    width: 63px;
+  }
+  .methods .content .block .holder .method .method_area .text {
+    font-size: 38px;
+    padding-top: 58px;
+  }
+  .methods .content .bottom {
+    margin-bottom: 120px;
+    margin-top: 120px;
+  }
+  .methods h4 {
+    font-size: 57px;
+  }
+  .milestones .breakpoints {
+    font-size: 38px;
+    padding-top: 243px;
+  }
+  .milestones h4 {
+    font-size: 57px;
+  }
+  .milestones .milestones_img {
+    padding-bottom: 120px;
+    padding-top: 181px;
+  }
+  .milestones .milestones_img .mil_img {
+    height: 368px;
+    width: 2389px;
+  }
+  .visits .austria {
+    height: 586px;
+    margin-top: 243px;
+    width: 1833px;
+  }
+  .visits .berlin {
+    margin-right: 120px;
+    padding-left: 58px;
+  }
+  .visits .berlin .img_right {
+    border-radius: 24.3px;
+    height: 895px;
+    width: 1560px;
+  }
+  .visits .city {
+    margin-top: 24.3px;
+  }
+  .visits .city_right {
+    margin-top: 24.3px;
+  }
+  .visits .graz {
+    margin-top: 58px;
+  }
+  .visits h4 {
+    font-size: 57px;
+  }
+  .visits .institute {
+    margin-top: 181px;
+  }
+  .visits .mappa {
+    margin-top: 82px;
+  }
+  .visits .pisa {
+    margin-top: 304px;
+  }
+  .visits .pisa_img {
+    height: 635px;
+    width: 811px;
+  }
+  .visits .pisa_text {
+    margin-bottom: 120px;
+    margin-top: 58px;
+  }
+  .visits .place {
+    margin-top: 33px;
+  }
+  .visits .place_right {
+    margin-top: 33px;
+  }
+  .visits .places {
+    font-size: 38px;
+    padding-top: 243px;
+  }
+  .visits .turin {
+    margin-left: 120px;
+    padding-right: 58px;
+  }
+  .visits .turin .img {
+    border-radius: 24.3px;
+    height: 895px;
+    width: 1560px;
+  }
+  .visits .vienna {
+    margin-top: 58px;
+  }
+  .visits .visits_places {
+    padding-top: 181px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

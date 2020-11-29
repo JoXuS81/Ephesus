@@ -1,0 +1,1127 @@
+/*
+
+
+*****************
+TABLE OF CONTENTS 
+*****************
+
+
+
+*/
+
+
+/*  ***** FONTS *****  */
+@font-face {
+    font-family:cairo;
+    src:url("../Fonts/Cairo/Cairo_Regular.ttf");
+}
+
+
+/*  ***** MIXINS *****  */
+@mixin h1 {
+    color:$light;
+    font-family:titillium_web;
+    font-size:64px;
+    margin:0;
+}
+@mixin h1_2000 {
+    font-size:80px;
+}
+@mixin h1_2500 {
+    font-size:100px;
+}
+@mixin h1_3125 {
+    font-size:125px;
+}
+@mixin h1_3850 {
+    font-size:156px;
+}
+@mixin h2 {
+    color:$orange;
+    font-family:nunito_sans;
+    font-size:36px;
+}
+@mixin h2_2000 {
+    font-size:45px;
+}
+@mixin h2_2500 {
+    font-size:56px;
+}
+@mixin h2_3125 {
+    font-size:70px;
+}
+@mixin h2_3850 {
+    font-size:87px;
+}
+@mixin h3 {
+    color:$dark;
+    font-size:28px;
+}
+@mixin h3_2000 {
+    font-size:35px;
+}
+@mixin h3_2500 {
+    font-size:43px;
+}
+@mixin h3_3125 {
+    font-size:53px;
+}
+@mixin h3_3850 {
+    font-size:66px;
+}
+@mixin h4 {
+    font-size:24px;
+}
+@mixin h4_2000 {
+    font-size:30px;
+}
+@mixin h4_2500 {
+    font-size:37px;
+}
+@mixin h4_3125 {
+    font-size:46px;
+}
+@mixin h4_3850 {
+    font-size:57px;
+}
+@mixin hide {
+    display:none;
+}
+
+
+/*  ***** VARIABLES *****  */
+$brown:#513724;
+$browndark:#2F1314;
+$dark:#000000;
+$gold:#F4D896;
+$light:#ffffff;
+$lighterdark:#010c12;
+$lightyellow:#FFFCCE;
+$middledark:#03070a;
+$orange:#E1A450;
+
+
+/* BODY */
+body {
+    @import "mission";
+    @import "objectives";
+    @import "home";
+    @import "loader";
+    background:$light;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    margin:0;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    overflow-x:hidden;
+    padding:0;
+    -webkit-background-size:cover;
+}
+
+
+.contact {
+    background:$middledark;
+    border-bottom-left-radius:15px;
+    border-bottom-right-radius:15px;
+    font-family:cairo;
+    margin:0;
+    margin-bottom:50px;
+    padding:0;
+    width:90%;
+    .address {
+        color:$lightyellow;
+        padding-top:75px;
+    }
+    .con {
+        color:$lightyellow;
+    }
+    .contact_me {
+        color:$lightyellow;
+        font-weight:bold;
+        padding-top:100px;
+    }
+    h4 {
+        @include h4;
+    }
+    .link {
+        margin:15px;
+        &:hover {
+            text-decoration:none;
+        }
+    }
+    .mail {
+        color:$lightyellow;
+        padding-top:25px;
+    }
+    .phone {
+        color:$lightyellow;
+        padding-top:25px;
+    }
+    .social {
+        margin-top:50px;
+        padding-bottom:50px;
+    }
+}
+
+
+.methods {
+    background:$middledark;
+    font-family:cairo;
+    margin:0;
+    padding:0;
+    width:90%;
+    .collect {
+        color:$lightyellow;
+        font-weight:bold;
+        padding-top:100px;
+    }
+    .content {
+        padding-top:75px;
+        .block {
+            .holder {
+                .method {
+                    background:$dark;
+                    border-radius:10px;
+                    height:250px;
+                    width:250px;
+                    .method_area {
+                        .text {
+                            color:$gold;
+                            display:block;
+                            padding-top:25px;
+                        }
+                    }
+                }
+            }
+        }
+        .bottom {
+            margin-bottom:50px;
+            margin-top:50px;
+        }
+    }
+    h4 {
+        @include h4;
+    }
+    .met {
+        color:$lightyellow;
+    }
+}
+
+
+.milestones {
+    background:$middledark;
+    font-family:cairo;
+    margin:0;
+    padding:0;
+    width:90%;
+    .breakpoints {
+        color:$lightyellow;
+        font-weight:bold;
+        padding-top:100px;
+    }
+    h4 {
+        @include h4;
+    }
+    .mil {
+        color:$lightyellow;
+    }
+    .milestones_img {
+        padding-bottom:50px;
+        padding-top:75px;
+    }
+}
+
+
+.visits {
+    background:$middledark;
+    font-family:cairo;
+    margin:0;
+    padding:0;
+    width:90%;
+    .austria {
+        margin-top:100px;
+    }
+    .berlin {
+        margin-right:50px;
+        padding-left:25px;
+        .img_right {
+            border-radius:10px;
+        }
+    }
+    .centre {
+        color:$lightyellow;
+    }
+    .city {
+        color:$lightyellow;
+        margin-top:10px;
+    }
+    .city_right {
+        color:$lightyellow;
+        margin-top:10px;
+    }
+    .graz {
+        color:$lightyellow;
+        margin-top:25px;
+    }
+    h4 {
+        @include h4;
+    }
+    .institute {
+        color:$lightyellow;
+        margin-top:75px;
+    }
+    .mappa {
+        color:$lightyellow;
+        margin-top:35px;
+    }
+    .pisa {
+        margin-top:125px;
+    }
+    .pisa_text {
+        color:$lightyellow;
+        margin-bottom:50px;
+        margin-top:25px;
+    }
+    .place {
+        color:$lightyellow;
+        margin-top:15px;
+    }
+    .place_right {
+        color:$lightyellow;
+        margin-top:15px;
+    }
+    .places {
+        color:$lightyellow;
+        font-weight:bold;
+        padding-top:100px;
+    }
+    .turin {
+        margin-left:50px;
+        padding-right:25px;
+        .img {
+            border-radius:10px;
+        }
+    }
+    .vienna {
+        color:$lightyellow;
+        margin-top:25px;
+    }
+    .vis {
+        color:$lightyellow;
+    }
+    .visits_places {
+        padding-top:75px;
+    }
+}
+
+
+@media (max-width:576px) {
+    .methods {
+        .content {
+            .archaeology_testing {
+                margin-top:50px;
+            }
+            .comparative_internet {
+                margin-top:0;
+            }
+        }
+    }
+}
+
+
+@media (min-width:577px) and (max-width:992px) {
+    .methods {
+        .content {
+            .block {
+                margin-top:0;
+            }
+            .two_block {
+                margin-top:50px;
+            }
+        }
+    }
+}
+
+
+@media (max-width:768px) {
+    .visits {
+        .berlin {
+            margin:0;
+            margin-top:50px;
+            padding:0;
+            .city_right {
+                text-align:center;
+            }
+            .place_right {
+                text-align:center;
+            }
+        }
+        .turin {
+            margin:0;
+            padding:0;
+            .city {
+                text-align:center;
+            }
+            .place {
+                text-align:center;
+            }
+        }
+    }
+}
+
+
+@media (min-width:1601px) and (max-width:2000px) {
+    .contact {
+        border-bottom-left-radius:18px;
+        border-bottom-right-radius:18px;
+        margin-bottom:62px;
+        .address {
+            font-size:25px;
+            padding-top:93px;
+        }
+        .contact_me {
+            font-size:20px;
+            padding-top:125px;
+        }
+        h4 {
+            @include h4_2000;
+        }
+        .link {
+            margin:18px;
+            .be {
+                height:26px;
+                width:40px;
+            }
+            .fb {
+                height:26px;
+                width:17px;
+            }
+            .li {
+                height:26px;
+                width:26px;
+            }
+        }
+        .mail {
+            font-size:25px;
+            padding-top:31px;
+        }
+        .phone {
+            font-size:25px;
+            padding-top:31px;
+        }
+        .social {
+            margin-top:62px;
+            padding-bottom:62px;
+        }
+    }
+    .methods {
+        .collect {
+            font-size:20px;
+            padding-top:125px;
+        }
+        .content {
+            padding-top:93px;
+            .block {
+                .holder {
+                    .method {
+                        border-radius:12.5px;
+                        height:312px;
+                        width:312px;
+                        .method_area {
+                            .amphora {
+                                height:53px;
+                                width:37px;
+                            }
+                            .coding {
+                                height:53px;
+                                width:33px;
+                            }
+                            .colosseum {
+                                height:53px;
+                                width:77px;
+                            }
+                            .column {
+                                height:53px;
+                                width:63px;
+                            }
+                            .internet {
+                                height:53px;
+                                width:55px;
+                            }
+                            .microphone {
+                                height:53px;
+                                width:33px;
+                            }
+                            .text {
+                                font-size:20px;
+                                padding-top:31px;
+                            }
+                        }
+                    }
+                }
+            }
+            .bottom {
+                margin-bottom:62px;
+                margin-top:62px;
+            }
+        }
+        h4 {
+            @include h4_2000;
+        }
+    } 
+    .milestones {
+        .breakpoints {
+            font-size:20px;
+            padding-top:125px;
+        }
+        h4 {
+            @include h4_2000;
+        }
+        .milestones_img {
+            padding-bottom:62px;
+            padding-top:93px;
+            .mil_img {
+                height:188px;
+                width:1223px;
+            }
+        }
+    }
+    .visits {
+        .austria {
+            height:300px;
+            margin-top:125px;
+            width:938px;
+        }
+        .berlin {
+            margin-right:62px;
+            padding-left:31px;
+            .img_right {
+                border-radius:12.5px;
+                height:458px;
+                width:800px;
+            }
+        }
+        .city {
+            margin-top:12.5px;
+        }
+        .city_right {
+            margin-top:12.5px;
+        }
+        .graz {
+            margin-top:31px;
+        }
+        h4 {
+            @include h4_2000;
+        }
+        .institute {
+            margin-top:93px;
+        }
+        .mappa {
+            margin-top:43px;
+        }
+        .pisa {
+            margin-top:156px;
+        }
+        .pisa_img {
+            height:325px;
+            width:415px;
+        }
+        .pisa_text {
+            margin-bottom:62px;
+            margin-top:31px;
+        }
+        .place {
+            margin-top:18px;
+        }
+        .place_right {
+            margin-top:18px;
+        }
+        .places {
+            font-size:20px;
+            padding-top:125px;
+        }
+        .turin {
+            margin-left:62px;
+            padding-right:31px;
+            .img {
+                border-radius:12.5px;
+                height:458px;
+                width:800px;
+            }
+        }
+        .vienna {
+            margin-top:31px;
+        }
+        .visits_places {
+            padding-top:93px;
+        }
+    }
+}
+
+
+@media (min-width:2001px) and (max-width:2500px) {
+    .contact {
+        border-bottom-left-radius:22px;
+        border-bottom-right-radius:22px;
+        margin-bottom:77px;
+        .address {
+            font-size:31px;
+            padding-top:116px;
+        }
+        .contact_me {
+            font-size:25px;
+            padding-top:156px;
+        }
+        h4 {
+            @include h4_2500;
+        }
+        .link {
+            margin:22px;
+            .be {
+                height:32px;
+                width:50px;
+            }
+            .fb {
+                height:32px;
+                width:21px;
+            }
+            .li {
+                height:32px;
+                width:32px;
+            }
+        }
+        .mail {
+            font-size:31px;
+            padding-top:38px;
+        }
+        .phone {
+            font-size:31px;
+            padding-top:38px;
+        }
+        .social {
+            margin-top:77px;
+            padding-bottom:77px;
+        }
+    }
+    .methods {
+        .collect {
+            font-size:25px;
+            padding-top:156px;
+        }
+        .content {
+            padding-top:116px;
+            .block {
+                .holder {
+                    .method {
+                        border-radius:15.6px;
+                        height:390px;
+                        width:390px;
+                        .method_area {
+                            .amphora {
+                                height:66px;
+                                width:46px;
+                            }
+                            .coding {
+                                height:66px;
+                                width:41px;
+                            }
+                            .colosseum {
+                                height:66px;
+                                width:96px;
+                            }
+                            .column {
+                                height:66px;
+                                width:78px;
+                            }
+                            .internet {
+                                height:66px;
+                                width:68px;
+                            }
+                            .microphone {
+                                height:66px;
+                                width:41px;
+                            }
+                            .text {
+                                font-size:25px;
+                                padding-top:38px;
+                            }
+                        }
+                    }
+                }
+            }
+            .bottom {
+                margin-bottom:77px;
+                margin-top:77px;
+            }
+        }
+        h4 {
+            @include h4_2500;
+        }
+    }   
+    .milestones {
+        .breakpoints {
+            font-size:25px;
+            padding-top:156px;
+        }
+        h4 {
+            @include h4_2500;
+        }
+        .milestones_img {
+            padding-bottom:77px;
+            padding-top:116px;
+            .mil_img {
+                height:235px;
+                width:1529px;
+            }
+        }
+    }
+    .visits {
+        .austria {
+            height:375px;
+            margin-top:156px;
+            width:1173px;
+        }
+        .berlin {
+            margin-right:77px;
+            padding-left:38px;
+            .img_right {
+                border-radius:15.6px;
+                height:573px;
+                width:1000px;
+            }
+        }
+        .city {
+            margin-top:15.6px;
+        }
+        .city_right {
+            margin-top:15.6px;
+        }
+        .graz {
+            margin-top:38px;
+        }
+        h4 {
+            @include h4_2500;
+        }
+        .institute {
+            margin-top:116px;
+        }
+        .mappa {
+            margin-top:53px;
+        }
+        .pisa {
+            margin-top:195px;
+        }
+        .pisa_img {
+            height:406px;
+            width:519px;
+        }
+        .pisa_text {
+            margin-bottom:77px;
+            margin-top:38px;
+        }
+        .place {
+            margin-top:22px;
+        }
+        .place_right {
+            margin-top:22px;
+        }
+        .places {
+            font-size:25px;
+            padding-top:156px;
+        }
+        .turin {
+            margin-left:77px;
+            padding-right:38px;
+            .img {
+                border-radius:15.6px;
+                height:573px;
+                width:1000px;
+            }
+        }
+        .vienna {
+            margin-top:38px;
+        }
+        .visits_places {
+            padding-top:116px;
+        }
+    }
+}
+
+
+@media (min-width:2501px) and (max-width:3125px) {
+    .contact {
+        border-bottom-left-radius:27px;
+        border-bottom-right-radius:27px;
+        margin-bottom:96px;
+        .address {
+            font-size:38px;
+            padding-top:145px;
+        }
+        .contact_me {
+            font-size:31px;
+            padding-top:195px;
+        }
+        h4 {
+            @include h4_3125;
+        }
+        .link {
+            margin:27px;
+            .be {
+                height:40px;
+                width:62px;
+            }
+            .fb {
+                height:40px;
+                width:26px;
+            }
+            .li {
+                height:40px;
+                width:40px;
+            }
+        }
+        .mail {
+            font-size:38px;
+            padding-top:47px;
+        }
+        .phone {
+            font-size:38px;
+            padding-top:47px;
+        }
+        .social {
+            margin-top:96px;
+            padding-bottom:96px;
+        }
+    }
+    .methods {
+        .collect {
+            font-size:31px;
+            padding-top:195px;
+        }
+        .content {
+            padding-top:145px;
+            .block {
+                .holder {
+                    .method {
+                        border-radius:19.5px;
+                        height:488px;
+                        width:488px;
+                        .method_area {
+                            .amphora {
+                                height:82px;
+                                width:57px;
+                            }
+                            .coding {
+                                height:82px;
+                                width:51px;
+                            }
+                            .colosseum {
+                                height:82px;
+                                width:120px;
+                            }
+                            .column {
+                                height:82px;
+                                width:97px;
+                            }
+                            .internet {
+                                height:82px;
+                                width:85px;
+                            }
+                            .microphone {
+                                height:82px;
+                                width:51px;
+                            }
+                            .text {
+                                font-size:31px;
+                                padding-top:47px;
+                            }
+                        }
+                    }
+                }
+            }
+            .bottom {
+                margin-bottom:96px;
+                margin-top:96px;
+            }
+        }
+        h4 {
+            @include h4_3125;
+        }
+    }    
+    .milestones {
+        .breakpoints {
+            font-size:31px;
+            padding-top:195px;
+        }
+        h4 {
+            @include h4_3125;
+        }
+        .milestones_img {
+            padding-bottom:96px;
+            padding-top:145px;
+            .mil_img {
+                height:294px;
+                width:1911px;
+            }
+        }
+    }
+    .visits {
+        .austria {
+            height:469px;
+            margin-top:195px;
+            width:1466px;
+        }
+        .berlin {
+            margin-right:96px;
+            padding-left:47px;
+            .img_right {
+                border-radius:19.5px;
+                height:716px;
+                width:1250px;
+            }
+        }
+        .city {
+            margin-top:19.5px;
+        }
+        .city_right {
+            margin-top:19.5px;
+        }
+        .graz {
+            margin-top:47px;
+        }
+        h4 {
+            @include h4_3125;
+        }
+        .institute {
+            margin-top:145px;
+        }
+        .mappa {
+            margin-top:66px;
+        }
+        .pisa {
+            margin-top:243px;
+        }
+        .pisa_img {
+            height:508px;
+            width:649px;
+        }
+        .pisa_text {
+            margin-bottom:96px;
+            margin-top:47px;
+        }
+        .place {
+            margin-top:27px;
+        }
+        .place_right {
+            margin-top:27px;
+        }
+        .places {
+            font-size:31px;
+            padding-top:195px;
+        }
+        .turin {
+            margin-left:96px;
+            padding-right:47px;
+            .img {
+                border-radius:19.5px;
+                height:716px;
+                width:1250px;
+            }
+        }
+        .vienna {
+            margin-top:47px;
+        }
+        .visits_places {
+            padding-top:145px;
+        }
+    }
+}
+
+
+@media (min-width:3126px) {
+    .contact {
+        border-bottom-left-radius:33px;
+        border-bottom-right-radius:33px;
+        margin-bottom:120px;
+        .address {
+            font-size:47px;
+            padding-top:181px;
+        }
+        .contact_me {
+            font-size:38px;
+            padding-top:243px;
+        }
+        h4 {
+            @include h4_3850;
+        }
+        .link {
+            margin:33px;
+            .be {
+                height:50px;
+                width:77px;
+            }
+            .fb {
+                height:50px;
+                width:32px;
+            }
+            .li {
+                height:50px;
+                width:50px;
+            }
+        }
+        .mail {
+            font-size:47px;
+            padding-top:58px;
+        }
+        .phone {
+            font-size:47px;
+            padding-top:58px;
+        }
+        .social {
+            margin-top:120px;
+            padding-bottom:120px;
+        }
+    }
+    .methods {
+        .collect {
+            font-size:38px;
+            padding-top:243px;
+        }
+        .content {
+            padding-top:181px;
+            .block {
+                .holder {
+                    .method {
+                        border-radius:24.3px;
+                        height:610px;
+                        width:610px;
+                        .method_area {
+                            .amphora {
+                                height:102px;
+                                width:71px;
+                            }
+                            .coding {
+                                height:102px;
+                                width:63px;
+                            }
+                            .colosseum {
+                                height:102px;
+                                width:150px;
+                            }
+                            .column {
+                                height:102px;
+                                width:121px;
+                            }
+                            .internet {
+                                height:102px;
+                                width:106px;
+                            }
+                            .microphone {
+                                height:102px;
+                                width:63px;
+                            }
+                            .text {
+                                font-size:38px;
+                                padding-top:58px;
+                            }
+                        }
+                    }
+                }
+            }
+            .bottom {
+                margin-bottom:120px;
+                margin-top:120px;
+            }
+        }
+        h4 {
+            @include h4_3850;
+        }
+    }  
+    .milestones {
+        .breakpoints {
+            font-size:38px;
+            padding-top:243px;
+        }
+        h4 {
+            @include h4_3850;
+        }
+        .milestones_img {
+            padding-bottom:120px;
+            padding-top:181px;
+            .mil_img {
+                height:368px;
+                width:2389px;
+            }
+        }
+    }
+    .visits {
+        .austria {
+            height:586px;
+            margin-top:243px;
+            width:1833px;
+        }
+        .berlin {
+            margin-right:120px;
+            padding-left:58px;
+            .img_right {
+                border-radius:24.3px;
+                height:895px;
+                width:1560px;
+            }
+        }
+        .city {
+            margin-top:24.3px;
+        }
+        .city_right {
+            margin-top:24.3px;
+        }
+        .graz {
+            margin-top:58px;
+        }
+        h4 {
+            @include h4_3850;
+        }
+        .institute {
+            margin-top:181px;
+        }
+        .mappa {
+            margin-top:82px;
+        }
+        .pisa {
+            margin-top:304px;
+        }
+        .pisa_img {
+            height:635px;
+            width:811px;
+        }
+        .pisa_text {
+            margin-bottom:120px;
+            margin-top:58px;
+        }
+        .place {
+            margin-top:33px;
+        }
+        .place_right {
+            margin-top:33px;
+        }
+        .places {
+            font-size:38px;
+            padding-top:243px;
+        }
+        .turin {
+            margin-left:120px;
+            padding-right:58px;
+            .img {
+                border-radius:24.3px;
+                height:895px;
+                width:1560px;
+            }
+        }
+        .vienna {
+            margin-top:58px;
+        }
+        .visits_places {
+            padding-top:181px;
+        }
+    }
+}

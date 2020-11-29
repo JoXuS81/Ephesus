@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+
+<!-- Website/Template Language -->
+<html lang = "en">
+
+
+    <head>
+        <meta charset = "utf-8">
+
+        <!-- Description, important for SEO -->
+        <meta name = "description" content = "Research about Giza Plateau on edge between history, archaeology and computer science.">
+
+        <!-- Keywords -->
+        <meta name = "keywords" content = "History, Archaeology, Giza, Plateau, Computer, Science, Unity, Blender">
+
+        <!-- Suiting for different device sizes -->
+        <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0">
+        <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
+        <link rel = "icon" type = "image/png" href = "Images/Title/Title_Bar.png">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-grid.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-grid.min.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-reboot.css">
+        <link rel = "stylesheet" type = "text/css" href = "SCSS_CSS/bootstrap-reboot.min.css">
+        <link rel = "stylesheet" href = "SCSS_CSS/style.css">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
+        integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="
+        crossorigin=""/>
+        <title>
+            Decode Ephesus - Research for Digital Age
+        </title>
+
+
+<!-- 
+        
+******************        
+COPYRIGHT, SOURCES
+****************** 
+
+Austria
+https://www.freepik.com/free-vector/isometric-austria-map-infographic_10877819.htm#page=1&query=Austria&position=6 (freepik)
+
+Berlin
+https://www.freepik.com/free-vector/berlin-skyline-silhouette-background_1818010.htm#page=1&query=Berlin&position=20 (freepik)
+
+Broken Amphora Icon
+https://www.freepik.com/free-icon/broken-amphora_811862.htm#page=1&query=Archaeology&position=0 (flaticon)
+
+Colosseum, Icon
+https://www.freepik.com/free-icon/roman-colosseum_775021.htm#page=1&query=Rome&position=6 (flaticon)
+
+Home, Background
+Pixabay
+
+https://pixabay.com/photos/desert-sun-landscape-sunset-dune-2774945/ (photo-graphe)
+Mission, Background
+
+Crop Images
+https://imageresizer.com/
+
+Fonts
+Google Fonts
+
+Icons
+Flaticon
+
+Icons
+Font Awesome
+
+Illustrator, Color Under Text
+Net
+
+Microphone, Icon
+https://www.freepik.com/free-icon/voice_782217.htm#page=1&query=Microphone&position=0 (flaticon)
+
+Mission, Image
+https://www.freepik.com/free-vector/ancient-egypt-pharaoh-underground-lost-tomb_6428806.htm#page=1&query=Giza&position=5 (upklyak)
+
+Objectives, Image
+https://www.freepik.com/free-vector/ancient-egypt-landscape-with-flat-design_2742219.htm#page=1&query=Sphinx&position=14 (freepik)
+
+Objectives, Image
+https://www.freepik.com/free-vector/egypt-background-with-landscape-flat-design_2775601.htm#page=2&query=Sphinx&position=55 (freepik)
+
+Pie Chart
+https://www.freepik.com/free-vector/flat-gradient-pie-chart-infographics_4837691.htm#page=3&query=Pie+Chart&position=9 (pikisuperstar)
+
+Pisa
+https://www.freepik.com/free-vector/welcome-italy-landing-page_4972692.htm#page=1&query=Pisa&position=9 (pikisuperstar)
+
+Testing, Icon
+https://www.freepik.com/free-icon/coding_910788.htm#page=1&query=Apps&position=0 (flaticon)
+
+Turin
+https://www.freepik.com/free-vector/natural-history-ethnographic-paleontology-art-museum-cartoon-vector-concept_4394137.htm#page=1&query=Museum&position=24 (vectorpouch)
+
+
+*****************
+TABLE OF CONTENTS
+*****************
+
+
+
+-->
+    </head>
+
+
+    <!-- BODY -->
+    <body>
+
+
+        <!-- LOADER -->
+        
+
+
+        <div class = "d-flex justify-content-center">
+
+            <!-- HOME -->
+            <section class = "home" id = "home_anchor">
+                <div class = "row m-0 p-0">
+                    <div class = "col-xl-6 m-0 p-0">
+                        <h4 class = "title">
+                            DECODE
+                            <span class = "giza">
+                                EPHESUS
+                            </span> 
+                        </h4>
+                    </div>
+                    <div class = "col-xl-6 m-0 p-0 d-flex justify-content-end">
+                        <div class = "navigation">
+                            <ul class = "nav">
+                                <li class = "option option_home">
+                                    <a href = "#" class = "link link_home">
+                                        Home
+                                    </a>
+                                </li>
+                                <li class = "option">
+                                    <a href = "#" class = "link link_mission">
+                                        Mission
+                                    </a>
+                                </li>
+                                <li class = "option">
+                                    <a href = "#" class = "link link_objectives">
+                                        Objectives
+                                    </a>
+                                </li>
+                                <li class = "option">
+                                    <a href = "#" class = "link link_methods">
+                                        Methods
+                                    </a>
+                                </li>
+                                <li class = "option">
+                                    <a href = "#" class = "link link_visits">
+                                        Visits
+                                    </a>
+                                </li>
+                                <li class = "option">
+                                    <a href = "#" class = "link link_milestones">
+                                        Milestones
+                                    </a>
+                                </li>
+                                <li class = "option">
+                                    <a href = "#" class = "link link_contact">
+                                        Contact
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class = "home_hamburger">
+                            <div class = "home_line home_lineTop">
+                            </div>
+                            <div class = "home_line home_lineMiddle">
+                            </div>
+                            <div class = "home_line home_lineBottom">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "d-flex align-items-center middle">
+                    <div class = "row m-0 p-0 mid">
+                        <div class = "col-xl-4 m-0 p-0 social">
+                            <div class = "soc">
+                                <a href = "https://www.facebook.com/jovan.stanisic.94" class = "img">
+                                    <img class = "img-fluid fb" src = "Images/Home/Facebook.png" alt = "Facebook">
+                                </a>
+                                <a href = "https://www.linkedin.com/in/jovan-stani%C5%A1i%C4%87-a9949b141/" class = "img">
+                                    <img class = "img-fluid li" src = "Images/Home/Linkedin.png" alt = "Linkedin">
+                                </a>
+                                <a href = "https://www.behance.net/jst2016b3e2" class = "img">
+                                    <img class = "img-fluid be" src = "Images/Home/Behance.png" alt = "Behance">
+                                </a>
+                            </div>
+                        </div>
+                        <div class = "col-xl-4 m-0 p-0 text">
+                            <p class = "text-center phd">
+                                Jovan Stanisic PhD Theme Proposal
+                            </p>
+                            <h3 class = "text-center unity">
+                                Unity Game Engine as Support 
+                                <br>
+                                    for Research in the Library of Celsus
+                            </h3>
+                        </div>
+                        <div class = "col-xl-4 m-0 p-0 d-flex justify-content-end unity_area">
+                            <div class = "engine">
+                                <a href = "https://unity.com/" class = "text">
+                                    Unity Game Engine
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "d-flex justify-content-center arrow">
+                    <a href = "#">
+                        <img class = "img-fluid arrow_img" src = "Images/Home/Arrow.png" alt = "arrow">
+                    </a>
+                </div>
+            </section>
+            
+        </div>
+
+
+        <div class = "d-flex justify-content-center">
+
+            <!-- MISSION -->
+            <section class = "mission" id = "mission_anchor">
+                <p class = "text-center break">
+                    To Break the Borders
+                </p>
+                <h4 class = "text-center mis">
+                    Mission
+                </h4>
+                <div class = "d-flex justify-content-center">
+                    <p class = "phd">
+                        This PhD research has a mission to offer new approach, which relates to research in Library of Celsus and relation between history, archaeology and computer science.
+                    </p>
+                </div>
+                <div class = "d-flex justify-content-center">
+                    <p class = "crucial">
+                        It is crucial to be introduced game engines and modeling tools in research efforts in Ephesus/The Library of Celsus. It needs to be our legacy for future generations of the Ancient Rome explorers. 
+                    </p>
+                </div>
+                <div class = "d-flex justify-content-center giza">
+                    <img class = "img-fluid giza_img" src = "Images/Mission/Ruins.png" alt = "Giza">
+                </div>
+            </section>
+
+        </div>
+
+
+        <div class = "d-flex justify-content-center">
+
+            <!-- OBJECTIVES -->
+            <section class = "objectives" id = "objectives_anchor">
+                <p class = "text-center combine">
+                    To Combine the Worlds
+                </p>
+                <h4 class = "text-center obj">
+                    Objectives
+                </h4>
+                <div class = "d-flex justify-content-center">
+                    <img class = "img-fluid chart" src = "Images/Objectives/Chart.png" alt = "Chart">
+                </div>
+            </section>
+
+        </div>
+
+
+        <div class = "d-flex justify-content-center">
+
+            <!-- METHODS -->
+            <section class = "methods" id = "methods_anchor">
+                <p class = "text-center collect">
+                    To Collect the Facts
+                </p>
+                <h4 class = "text-center met">
+                    Methods
+                </h4>
+                <div class = "row m-0 pr-0 pb-0 pl-0 content">
+                    <div class = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 m-0 p-0 block">
+                        <div class = "d-flex justify-content-center align-items-center holder">
+                            <div class = "d-flex align-items-center justify-content-center method">
+                                <div class = "method_area">
+                                    <div class = "d-flex justify-content-center">
+                                        <img class = "img-fluid column" src = "Images/Methods/Column.png" alt = "Column">
+                                    </div>
+                                    <p class = "m-0 pr-0 pb-0 pl-0 text-center text">
+                                        Historical
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mr-0 mb-0 ml-0 p-0 block archaeology_testing">
+                        <div class = "d-flex justify-content-center align-items-center holder">
+                            <div class = "d-flex align-items-center justify-content-center method">
+                                <div class = "method_area">
+                                    <div class = "d-flex justify-content-center">
+                                        <img class = "img-fluid amphora" src = "Images/Methods/Amphora.png" alt = "Amphora">
+                                    </div>
+                                    <p class = "m-0 pr-0 pb-0 pl-0 text-center text">
+                                        Archaeological
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mr-0 mb-0 ml-0 p-0 block two_block archaeology_testing">
+                        <div class = "d-flex justify-content-center align-items-center holder">
+                            <div class = "d-flex align-items-center justify-content-center method">
+                                <div class = "method_area">
+                                    <div class = "d-flex justify-content-center">
+                                        <img class = "img-fluid coding" src = "Images/Methods/Coding.png" alt = "Coding">
+                                    </div>
+                                    <p class = "m-0 pr-0 pb-0 pl-0 text-center text">
+                                        Testing
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mr-0 ml-0 p-0 block bottom two_block">
+                        <div class = "d-flex justify-content-center align-items-center holder">
+                            <div class = "d-flex align-items-center justify-content-center method">
+                                <div class = "method_area">
+                                    <div class = "d-flex justify-content-center">
+                                        <img class = "img-fluid microphone" src = "Images/Methods/Microphone.png" alt = "Microphone">
+                                    </div>
+                                    <p class = "m-0 pr-0 pb-0 pl-0 text-center text">
+                                        Interviews
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mr-0 ml-0 p-0 block bottom comparative_internet">
+                        <div class = "d-flex justify-content-center align-items-center holder">
+                            <div class = "d-flex align-items-center justify-content-center method">
+                                <div class = "method_area">
+                                    <div class = "d-flex justify-content-center">
+                                        <img class = "img-fluid colosseum" src = "Images/Methods/Colosseum.png" alt = "Colosseum">
+                                    </div>
+                                    <p class = "m-0 pr-0 pb-0 pl-0 text-center text">
+                                        Comparative
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-xl-4 col-lg-4 col-md-6 col-sm-6 col-12 mr-0 ml-0 p-0 block bottom comparative_internet">
+                        <div class = "d-flex justify-content-center align-items-center holder">
+                            <div class = "d-flex align-items-center justify-content-center method">
+                                <div class = "method_area">
+                                    <div class = "d-flex justify-content-center">
+                                        <img class = "img-fluid internet" src = "Images/Methods/Internet.png" alt = "Internet">
+                                    </div>
+                                    <p class = "m-0 pr-0 pb-0 pl-0 text-center text">
+                                        Internet
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+
+        <div class = "d-flex justify-content-center">
+
+            <!-- VISITS -->
+            <section class = "visits" id = "visits_anchor">
+                <p class = "text-center places">
+                    To Visit Places
+                </p>
+                <h4 class = "text-center vis">
+                    Visits
+                </h4>
+                <div class = "row m-0 pr-0 pb-0 pl-0 visits_places">
+                    <div class = "col-xl-6 col-md-6 col-12 d-flex justify-content-center justify-content-md-start m-0 p-0">
+                        <div class = "turin">
+                            <img class = "img-fluid img" src = "Images/Visits/Turkey.png" alt = "Turin">
+                            <h4 class = "place">
+                                The Library of Celsus
+                            </h4>
+                            <h4 class = "city">
+                                EPHESUS, TURKEY
+                            </h4>
+                        </div>
+                    </div>
+                    <div class = "col-xl-6 col-md-6 col-12 d-flex justify-content-center justify-content-md-end m-0 p-0 d-flex">
+                        <div class = "berlin">
+                            <img class = "img-fluid img_right" src = "Images/Visits/Rome.png" alt = "Berlin">
+                            <div class = "d-flex justify-content-md-end justify-content-center">
+                                <h4 class = "place_right">
+                                    American Institute of Roman Culture
+                                </h4>
+                            </div>
+                            <div class = "d-flex justify-content-md-end justify-content-center">
+                                <h4 class = "city_right">
+                                    ROME, ITALY
+                                </h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class = "d-flex justify-content-center">
+                    <img class = "img-fluid austria" src = "Images/Visits/Austria.png" alt = "Austria">
+                </div>
+                <h4 class = "text-center centre">
+                    Austrian Centre for Digital Humanities
+                </h4>
+                <h4 class = "text-center graz">
+                    GRAZ, AUSTRIA
+                </h4>
+                <h4 class = "text-center institute">
+                    Institute for Oriental and European Archaeology
+                </h4>
+                <h4 class = "text-center vienna">
+                    VIENNA, AUSTRIA
+                </h4>
+                <div class = "d-flex justify-content-center pisa">
+                    <img class = "img-fluid pisa_img" src = "Images/Visits/Pisa.png" alt = "Pisa">
+                </div>
+                <h4 class = "text-center mappa">
+                    Mappa Lab
+                </h4>
+                <h4 class = "text-center pisa_text">
+                    PISA, ITALY
+                </h4>
+            </section>
+
+        </div>
+
+
+        <div class = "d-flex justify-content-center">
+
+            <!-- MILESTONES -->
+            <section class = "milestones" id = "milestones_anchor">
+                <p class = "text-center breakpoints">
+                    To Create Breakpoints
+                </p>
+                <h4 class = "text-center mil">
+                    Milestones
+                </h4>
+                <div class = "d-flex justify-content-center milestones_img">
+                    <img class = "img-fluid mil_img" src = "Images/Milestones/Milestones.png" alt = "Milestones">
+                </div>
+            </section>
+            
+        </div>
+
+
+        <div class = "d-flex justify-content-center">
+
+            <!-- CONTACT -->
+            <section class = "contact" id = "contact_anchor">
+                <p class = "text-center contact_me">
+                    Contact Me
+                </p>
+                <h4 class = "text-center con">
+                    Contact
+                </h4>
+                <h5 class = "text-center address">
+                    Miloša Obilića 21, Banja Luka, Bosnia and Herzegovina
+                </h5>
+                <h5 class = "text-center phone">
+                    0038765520406
+                </h5>
+                <h5 class = "text-center mail">
+                    jst2016@mail.com
+                </h5>
+                <div class = "d-flex justify-content-center social">
+                    <div>
+                        <a href = "#" class = "link">
+                            <img class = "img-fluid fb" src = "Images/Contact/Facebook_Lighter.png" alt = "Facebook">
+                        </a>
+                        <a href = "#" class = "link">
+                            <img class = "img-fluid li" src = "Images/Contact/Linkedin_Lighter.png" alt = "Linkedin">
+                        </a>
+                        <a href = "#" class = "link">
+                            <img class = "img-fluid be" src = "Images/Contact/Behance_Lighter.png" alt = "Behance">
+                        </a>
+                    </div>
+                </div>
+            </section>
+            
+        </div>
+
+
+        <!-- JavaScript Connections -->
+        <script src = 'JS/jquery-3.4.1.min.js'>
+        </script>
+        <script src = 'JS/popper.min.js'>
+        </script>
+        <script src = 'JS/bootstrap.js'>
+        </script>
+        <script src = 'JS/bootstrap.min.js'>
+        </script>
+        <script src = 'JS/bootstrap.bundle.js'>
+        </script>
+        <script src = 'JS/bootstrap.bundle.min.js'>
+        </script>
+        <script src = "https://unpkg.com/leaflet@1.6.0/dist/leaflet.js"
+        integrity="sha512-gZwIG9x3wUXg2hdXF6+rVkLF/0Vi9U8D2Ntg4Ga5I5BZpVkVxlJWbSQtXPSiUTtC0TjtGOmxa1AJPuV0CPthew=="
+        crossorigin="">
+        </script>
+        <script src = "JS/search.js">
+        </script>
+        <script src = "JS/map.js">
+        </script>
+        <script src = "JS/scroll.js">
+        </script>
+        <script src = "JS/menu.js">
+        </script>
+
+
+    </body>
+
+
+</html>

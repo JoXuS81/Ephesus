@@ -1,0 +1,117 @@
+/*
+
+
+*****************
+TABLE OF CONTENTS 
+*****************
+
+1. Government 
+ 1.1 City Council 
+ 1.2 Major 
+ 1.3 Offices 
+ 1.4 Headings 
+2. Media Queries 
+
+
+*/
+
+
+/* GOVERNMENT */
+.objectives {
+    background:$middledark;
+    font-family:cairo;
+    margin:0;
+    padding:0;
+    width:90%;
+    .chart {
+        margin-bottom:50px;
+        padding-top:75px;
+    }
+    .combine {
+        color:$lightyellow;
+        font-weight:bold;
+        padding-top:100px;
+    }
+    h4 {
+        @include h4;
+    }
+    .obj {
+        color:$lightyellow;
+    }
+}
+
+
+@media (min-width:1601px) and (max-width:2000px) {
+    .objectives {
+        .chart {
+            height:720px;
+            margin-bottom:62px;
+            padding-top:93px;
+            width:938px;
+        }
+        .combine {
+            font-size:20px;
+            padding-top:125px;
+        }
+        h4 {
+            @include h4_2000;
+        }
+    }
+}
+
+
+@media (min-width:2001px) and (max-width:2500px) {
+    .objectives {
+        .chart {
+            height:900px;
+            margin-bottom:77px;
+            padding-top:116px;
+            width:1173px;
+        }
+        .combine {
+            font-size:25px;
+            padding-top:156px;
+        }
+        h4 {
+            @include h4_2500;
+        }
+    }
+}
+
+
+@media (min-width:2501px) and (max-width:3125px) {
+    .objectives {
+        .chart {
+            height:1125px;
+            margin-bottom:96px;
+            padding-top:145px;
+            width:1466px;
+        }
+        .combine {
+            font-size:31px;
+            padding-top:195px;
+        }
+        h4 {
+            @include h4_3125;
+        }
+    }
+}
+
+
+@media (min-width:3126px) {
+    .objectives {
+        .chart {
+            height:1406px;
+            margin-bottom:120px;
+            padding-top:181px;
+            width:1833px;
+        }
+        .combine {
+            font-size:38px;
+            padding-top:243px;
+        }
+        h4 {
+            @include h4_3850;
+        }
+    }
+}
